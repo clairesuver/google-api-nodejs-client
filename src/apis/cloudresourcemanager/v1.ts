@@ -793,7 +793,7 @@ export namespace cloudresourcemanager_v1 {
      *   // Do the magic
      *   const res = await cloudresourcemanager.folders.clearOrgPolicy({
      *     // Name of the resource for the `Policy` to clear.
-     *     resource: 'folders/my-folder',
+     *     resource: 'folders/[folder ID]',
      *
      *     // Request body metadata
      *     requestBody: {
@@ -936,7 +936,7 @@ export namespace cloudresourcemanager_v1 {
      *   // Do the magic
      *   const res = await cloudresourcemanager.folders.getEffectiveOrgPolicy({
      *     // The name of the resource to start computing the effective `Policy`.
-     *     resource: 'folders/my-folder',
+     *     resource: 'folders/[folder ID]',
      *
      *     // Request body metadata
      *     requestBody: {
@@ -1088,7 +1088,7 @@ export namespace cloudresourcemanager_v1 {
      *   // Do the magic
      *   const res = await cloudresourcemanager.folders.getOrgPolicy({
      *     // Name of the resource the `Policy` is set on.
-     *     resource: 'folders/my-folder',
+     *     resource: 'folders/[folder ID]',
      *
      *     // Request body metadata
      *     requestBody: {
@@ -1239,7 +1239,7 @@ export namespace cloudresourcemanager_v1 {
      *   const res = await cloudresourcemanager.folders.listAvailableOrgPolicyConstraints(
      *     {
      *       // Name of the resource to list `Constraints` for.
-     *       resource: 'folders/my-folder',
+     *       resource: 'folders/[folder ID]',
      *
      *       // Request body metadata
      *       requestBody: {
@@ -1402,7 +1402,7 @@ export namespace cloudresourcemanager_v1 {
      *   // Do the magic
      *   const res = await cloudresourcemanager.folders.listOrgPolicies({
      *     // Name of the resource to list Policies for.
-     *     resource: 'folders/my-folder',
+     *     resource: 'folders/[folder ID]',
      *
      *     // Request body metadata
      *     requestBody: {
@@ -1552,7 +1552,7 @@ export namespace cloudresourcemanager_v1 {
      *   // Do the magic
      *   const res = await cloudresourcemanager.folders.setOrgPolicy({
      *     // Resource name of the resource to attach the `Policy`.
-     *     resource: 'folders/my-folder',
+     *     resource: 'folders/[folder ID]',
      *
      *     // Request body metadata
      *     requestBody: {
